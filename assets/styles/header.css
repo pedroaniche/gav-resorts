@@ -1,0 +1,42 @@
+.container-header {
+    width: 940px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container-header .logo {
+    opacity: 1;
+    padding: 2% 0;
+    margin-top: 0;
+    display: block;
+    text-align: center;
+}
+
+.container-header .logo a img {
+    text-align: center;
+}
+
+.container-header .menu {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.container-header .pagina {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.container-header .pagina a {
+    color: var(--white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.67;
+    letter-spacing: .3px;
+    text-align: center;
+    transition: .7s all;
+}
+
+.container-header .pagina a:hover {
+    color: var(--lightblue);
+}

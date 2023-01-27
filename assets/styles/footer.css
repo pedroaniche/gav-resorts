@@ -1,0 +1,103 @@
+footer {
+    background-color: var(--darkblue);
+    padding: 2% 0 .5% 0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.container-footer {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-footer .column {
+    width: 25%;
+}
+
+.container-footer .secundaria {
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer .logo {
+    display: flex;
+    align-items: center;
+}
+
+.container-footer .titulo {
+    font-size: 18px;
+    margin: 2% 0;
+    padding: 0;
+    color: var(--white);
+}
+
+.container-footer .menu {
+    margin-bottom: 5%;
+}
+
+.container-footer .pagina {
+    padding-left: .5%;
+}
+
+.container-footer .pagina a {
+    color: var(--white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.67;
+    letter-spacing: .3px;
+    text-align: center;
+    transition: .7s all;
+}
+
+.container-footer .pagina a:hover {
+    color: var(--lightblue);
+}
+
+.container-footer .telefone {
+    margin: 0;
+    padding-left: .5%;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--white);
+}
+
+.container-footer .email {
+    margin: 0;
+    padding-left: .5%;
+    font-size: 14px;
+    color: var(--white);
+}
+
+.container-footer .lista-icones {
+    margin: 0 auto;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-footer .icone {
+    margin: 1% 12% 0 0;
+}
+
+.container-footer .icone a img {
+    width: 32px;
+    filter: brightness(0) saturate(100%) invert(87%) sepia(0%) saturate(2557%) hue-rotate(319deg) brightness(97%) contrast(108%);
+}
+
+.container-footer .endereco {
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+    font-size: 14px;
+}
+
+.container-footer .icon-address {
+    width: 24px;
+    padding: 0 .5%;
+}

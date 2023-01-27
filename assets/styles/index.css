@@ -1,0 +1,497 @@
+.quem-somos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quem-somos .bloco-imagem {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.quem-somos .bloco-imagem .imagem {
+    width: 100%;
+    border-radius: 8rem 0;
+}
+
+.quem-somos .bloco-texto {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: right;
+}
+
+.quem-somos .bloco-texto .titulo {
+    margin-block-start: 0;
+    text-align: right;
+}
+
+.quem-somos .bloco-texto .paragrafo {
+    padding-left: 4rem;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+.quem-somos .bloco-link {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.quem-somos .bloco-link .link {
+    padding: 0;
+}
+
+.empreendimentos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.empreendimentos .titulo {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: left;
+}
+
+.empreendimentos .propriedades {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;
+}
+
+.empreendimentos .propriedades .propriedade {
+    width: 17.5rem;
+    padding: 0;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    border: .15rem solid var(--darkblue);
+    border-radius: .5rem;
+}
+
+.empreendimentos .propriedades .primeira {
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.empreendimentos .propriedades .meio {
+    margin: 1rem;
+}
+
+.empreendimentos .propriedades .ultima {
+    margin: 1rem;
+    margin-right: 0;
+}
+
+.empreendimentos .propriedades .propriedade:hover {
+    border-color: var(--coral);
+}
+
+.empreendimentos .propriedades .propriedade .bloco-imagem {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+}
+
+.empreendimentos .propriedades .propriedade .bloco-imagem .imagem {
+    border-radius: .5rem;
+}
+
+.empreendimentos .propriedades .propriedade .nome {
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.empreendimentos .propriedades .propriedade .status {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--lightgray);
+}
+
+.empreendimentos .propriedades .propriedade .paragrafo {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.empreendimentos .bloco-link {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.empreendimentos .bloco-link .link {
+    padding: 0;
+}
+
+.vendas {
+    width: 940px;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vendas .titulo {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.vendas .bloco-video {
+    width: 64%;
+}
+
+.vendas .bloco-video .video {
+    width: 100%;
+    height: 20.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: .6rem;
+}
+
+.vendas .bloco-texto {
+    width: 36%;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vendas .bloco-texto .paragrafo {
+    margin: 0;
+    margin-left: 1rem;
+    padding: 0;
+    text-align: justify;
+    text-indent: 1rem;
+}
+
+.vendas .bloco-texto .destaque {
+    text-align: center;
+    text-indent: 0;
+    text-decoration: underline var(--darkblue);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--coral);
+}
+
+.vendas .bloco-texto .paragrafo .notoriedade {
+    font-weight: bold;
+    color: var(--darkblue);
+}
+
+.vendas .bloco-texto .botao {
+    margin-top: 1rem;
+    border-radius: .5rem;
+}
+
+.vendas .bloco-texto .botao .link {
+    padding: 1rem .8rem;
+    text-indent: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--darkblue);
+    border: .15rem solid var(--darkblue);
+    border-radius: .5rem;
+}
+
+.vendas .bloco-texto .botao .link:hover {
+    color: var(--white);
+    background-color: var(--darkblue);
+    border-color: var(--coral);
+}
+
+.noticias {
+    width: 940px;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.noticias .titulo {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: left;
+}
+
+.noticias .materias {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;
+}
+
+.noticias .materias .materia {
+    width: 17.5rem;
+    padding: 0;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    border: .15rem solid var(--darkblue);
+    border-radius: .5rem;
+}
+
+.noticias .materias .primeira {
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.noticias .materias .meio {
+    margin: 1rem;
+}
+
+.noticias .materias .ultima {
+    margin: 1rem;
+    margin-right: 0;
+}
+
+.noticias .materias .materia:hover {
+    border-color: var(--coral);
+}
+
+.noticias .materias .materia .bloco-imagem {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    padding-bottom: .5rem;
+}
+
+.noticias .materias .materia .bloco-imagem .imagem {
+    border-radius: .5rem;
+}
+
+.noticias .materias .materia .data {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    font-size: .8rem;
+    color: var(--lightgray);
+}
+
+.noticias .materias .materia .nome {
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.noticias .materias .materia .manchete {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: .9rem;
+}
+
+.noticias .bloco-link {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.noticias .link {
+    padding: 0;
+}
+
+.indique-ganhe {
+    width: 940px;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.indique-ganhe .titulo {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.indique-ganhe .intro {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.indique-ganhe .destaque {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 0;
+    text-align: center;
+    text-shadow: -1px 0 var(--darkblue);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--coral);
+}
+
+.indique-ganhe .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.indique-ganhe .container .etapas {
+    width: 40rem;
+    margin: 1rem 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.indique-ganhe .container .etapas .botao {
+    width: 5rem;
+    height: 5rem;
+    margin: 0 2rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: var(--darkblue);
+    border: .15rem solid var(--darkblue);
+    border-radius: 3rem;
+    transition: all .3s;
+}
+
+.indique-ganhe .container .etapas .botao:hover {
+    color: var(--coral);
+    border-color: var(--coral);
+}
+
+.indique-ganhe .container .etapas .ativado {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--white);
+    background-color: var(--darkblue);
+}
+
+.indique-ganhe .container .conteudos {
+    width: 40rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.indique-ganhe .container .conteudos .conteudo {
+    width: 100%;
+    margin: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: left;
+    background-color: var(--darkblue);
+    border-radius: 1rem;
+}
+
+.indique-ganhe .container .conteudos .conteudo .bloco-imagem {
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.indique-ganhe .container .conteudos .conteudo .bloco-imagem .imagem {
+    width: 100%;
+}
+
+.indique-ganhe .container .conteudos .conteudo .bloco-texto {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    padding-left: 3rem;
+}
+
+.indique-ganhe .container .conteudos .conteudo .bloco-texto .titulo {
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    font-size: 1.6rem;
+    color: var(--coral);
+}
+
+.indique-ganhe .container .conteudos .conteudo .bloco-texto .paragrafo {
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.indique-ganhe .container .conteudos .conteudo .bloco-texto .destaque {
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--coral);
+}
+
+.indique-ganhe .container .conteudos .desativado {
+    display: none;
+}
+
+.indique-ganhe .bloco-link {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.indique-ganhe .bloco-link .link {
+    padding: 0;
+}
