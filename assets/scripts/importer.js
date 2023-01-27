@@ -5,5 +5,5 @@ function importFile(filePath, element) {
         document.querySelector(element).innerHTML = data;
     });
 }
-importFile('assets/pages/header.html', 'header');
-importFile('assets/pages/footer.html', 'footer');
+importFile('./assets/pages/header.html', 'header');
+importFile('./assets/pages/footer.html', 'footer');
